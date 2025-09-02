@@ -1,0 +1,199 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+
+/* Загальні стилі */
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------- HEADER ---------- */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+
+.logo-accent {
+  color: var(--color-navy-blue);
+}
+
+.nav-link {
+  color: var(--color-navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-ocean);
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contact-link {
+  color: var(--color-slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--color-ocean);
+}
+
+/* ---------- HERO ---------- */
+
+.hero {
+  background-color: var(--color-navy-blue);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  color: var(--color-white);
+  background-color: var(--color-iris);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--color-ocean);
+}
+
+/* ---------- FEATURES ---------- */
+
+.features-item-title {
+  color: var(--color-navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-item-text {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ---------- TEAM ---------- */
+
+.team {
+  background-color: var(--color-cloud);
+}
+
+.team-title {
+  color: var(--color-navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-item {
+  background-color: var(--color-white);
+  text-align: center;
+}
+
+.team-member-name {
+  color: var(--color-navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-member-role {
+  color: var(--color-slate);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ---------- PORTFOLIO ---------- */
+
+.portfolio-title {
+  color: var(--color-navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.portfolio-item-title {
+  color: var(--color-navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {
+  color: var(--color-slate);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ---------- FOOTER ---------- */
+
+.page-footer {
+  background-color: var(--color-navy-blue);
+}
+
+.logo-footer {
+  color: var(--color-cloud);
+}
+
+.footer-text {
+  color: var(--color-cloud);
+  font-size: 16px;
+  line-height: 1.5;
+}
