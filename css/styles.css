@@ -28,6 +28,40 @@ a {
   text-decoration: none;
 }
 
+input,textarea,button {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: currentColor;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* ---------- HEADER ---------- */
 
 .logo {
@@ -38,6 +72,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  margin-right: 76px;
 }
 
 .logo-accent {
@@ -78,6 +113,7 @@ a {
 .hero {
   background-color: var(--color-navy-blue);
   text-align: center;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -196,4 +232,14 @@ a {
   color: var(--color-cloud);
   font-size: 16px;
   line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
 }
