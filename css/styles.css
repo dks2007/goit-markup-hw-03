@@ -43,6 +43,10 @@ img{
   height: auto;
 }
 
+.page-header {
+  border-bottom: 1px solid var(--color-cornflower);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -61,6 +65,13 @@ img{
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
 }
 /* ---------- HEADER ---------- */
 
