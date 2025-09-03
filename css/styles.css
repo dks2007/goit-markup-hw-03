@@ -112,6 +112,7 @@ img{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 .contact-link:hover,
@@ -152,6 +153,9 @@ img{
 }
 
 /* ---------- FEATURES ---------- */
+.features-item {
+  padding: 24px 0;
+}
 
 .features-item-title {
   color: var(--color-navy-blue);
@@ -250,7 +254,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
   padding: 0;
 }
 
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
-}
+} */
