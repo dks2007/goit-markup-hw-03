@@ -133,7 +133,7 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   display: block;
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   background-color: #4d5ae5;
@@ -154,6 +154,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -177,6 +178,12 @@ img {
   white-space: nowrap;
   border: 0;
 }
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  width: calc((1158px *3 - 72px)/4);
+} 
 
 /* ---------- TEAM ---------- */
 
