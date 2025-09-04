@@ -59,6 +59,7 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -68,6 +69,8 @@ img {
 
 .contacts {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .contact-link {
@@ -75,7 +78,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 
 
@@ -85,6 +87,7 @@ img {
 }
 .page-header {
   border-bottom: 1px solid var(--color-cornflower);
+  max-width: 100%;
 }
 .div-header {
   display: flex;
@@ -107,6 +110,7 @@ img {
 .hero {
   background-color: var(--color-navy-blue);
   text-align: center;
+  padding: 120px;
 }
 
 .hero-title {
