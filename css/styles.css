@@ -185,7 +185,7 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  width: calc((100% *4 - 72px)/4);
+  flex-basis: calc((100% - 72px) / 4);  
 } 
 
 /* ---------- TEAM ---------- */
