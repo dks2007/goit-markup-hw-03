@@ -231,6 +231,10 @@ img {
   gap: 24px;
 }
 
+.div-team {
+  padding: 32px 0;
+}
+
 /* ---------- PORTFOLIO ---------- */
 
 .portfolio-title {
