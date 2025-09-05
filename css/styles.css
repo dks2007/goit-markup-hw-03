@@ -61,7 +61,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
+  display: block;
 }
 
 .nav-list {
@@ -77,6 +77,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contact-link {
@@ -101,6 +102,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .div-header {
   display: flex;
+  align-items: center;
 }
 
 .container {
@@ -130,7 +132,7 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin: auto;
+  margin: 0 auto 48px;
 }
 
 .hero-btn {
