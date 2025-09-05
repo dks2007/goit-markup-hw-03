@@ -29,8 +29,12 @@ a {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
-
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
 /* ---------- HEADER ---------- */
 
 .logo {
@@ -187,9 +191,11 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  width: calc((1158px- 72px) / 4);  /* 4 items with 24px gap */
 } 
 
+.feateres-item {
+  width: calc((100% - 72px) / 4);   /* 3 items with 24px gap */
+}
 /* ---------- TEAM ---------- */
 
 .team {
@@ -213,7 +219,7 @@ img {
 .team-item {
   background-color: var(--color-white);
   text-align: center;
-  width: calc((1158px - 48px) / 3);   /* 3 items with 24px gap */
+  width: calc((100% - 72px) / 4);   /* 3 items with 24px gap */
   border-radius: 0 0 4px 4px;
 }
 
