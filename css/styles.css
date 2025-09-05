@@ -20,8 +20,11 @@ body {
   letter-spacing: 0.02em;
 }
 
+
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -193,8 +196,8 @@ p, h1, h2, h3, h4, h5, h6 {
   gap: 24px;
 } 
 
-.feateres-item {
-  width: calc((100% - 72px) / 4);   /* 3 items with 24px gap */
+.feateres-li {
+  width: calc((100% - 72px) / 4);   /* ------------------- Section 2------------ */
 }
 /* ---------- TEAM ---------- */
 
@@ -216,10 +219,10 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 72px;
 }
 
-.team-item {
+.team-li {
   background-color: var(--color-white);
   text-align: center;
-  width: calc((100% - 72px) / 4);   /* 3 items with 24px gap */
+  width: calc((100% - 72px) / 4);   /* -------- Section 3 ----------- */
   border-radius: 0 0 4px 4px;
 }
 
@@ -306,8 +309,8 @@ p, h1, h2, h3, h4, h5, h6 {
   row-gap: 48px;
 }
 
-.portfolio-item {
-  width: calc((100% - 48px) / 3 ); /* 3 items with 24px gap */
+.portfolio-li {
+  width: calc((100% - 48px) / 3 ); /*----------------- Section 4 --------------- */
 }
 
 .div-porfolio {
