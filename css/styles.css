@@ -191,12 +191,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-.features-list {
+.features-menu {
   display: flex;
   gap: 24px;
 } 
 
-.feateres-li {
+.section-two-li {
   width: calc((100% - 72px) / 4);   /* ------------------- Section 2------------ */
 }
 /* ---------- TEAM ---------- */
